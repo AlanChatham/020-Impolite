@@ -1,21 +1,21 @@
 import processing.video.*;
 
 // Preload images for Processing.js
-/* @pjs preload = "Impolite/data/Noses/_UpLeft/0.png,
-Impolite/data/Noses/_UpLeft/1.png,
-Impolite/data/Noses/_UpLeft/2.png,
-Impolite/data/Noses/_UpLeft/3.png,
-Impolite/data/Noses/_UpLeft/4.png,
-Impolite/data/Noses/_UpCenter/0.png,
-Impolite/data/Noses/_UpCenter/1.png,
-Impolite/data/Noses/_UpCenter/2.png,
-Impolite/data/Noses/_UpCenter/3.png,
-Impolite/data/Noses/_UpCenter/4.png,
-Impolite/data/Noses/_UpRight/0.png,
-Impolite/data/Noses/_UpRight/1.png,
-Impolite/data/Noses/_UpRight/2.png,
-Impolite/data/Noses/_UpRight/3.png,
-Impolite/data/Noses/_UpRight/4.png,
+/* @pjs preload = "Impolite/data/Noses/UpLeft/0.png,
+Impolite/data/Noses/UpLeft/1.png,
+Impolite/data/Noses/UpLeft/2.png,
+Impolite/data/Noses/UpLeft/3.png,
+Impolite/data/Noses/UpLeft/4.png,
+Impolite/data/Noses/UpCenter/0.png,
+Impolite/data/Noses/UpCenter/1.png,
+Impolite/data/Noses/UpCenter/2.png,
+Impolite/data/Noses/UpCenter/3.png,
+Impolite/data/Noses/UpCenter/4.png,
+Impolite/data/Noses/UpRight/0.png,
+Impolite/data/Noses/UpRight/1.png,
+Impolite/data/Noses/UpRight/2.png,
+Impolite/data/Noses/UpRight/3.png,
+Impolite/data/Noses/UpRight/4.png,
 Impolite/data/Noses/CenterLeft/0.png,
 Impolite/data/Noses/CenterLeft/1.png,
 Impolite/data/Noses/CenterLeft/2.png,
@@ -96,9 +96,9 @@ void setup() {
 }
 
 void setupImages(){
-  preloadImageArray(UpLeftImages, "_UpLeft");
-  preloadImageArray(UpCenterImages, "_UpCenter");
-  preloadImageArray(UpRightImages, "_UpRight");
+  preloadImageArray(UpLeftImages, "UpLeft");
+  preloadImageArray(UpCenterImages, "UpCenter");
+  preloadImageArray(UpRightImages, "UpRight");
   preloadImageArray(CenterLeftImages, "CenterLeft");
   preloadImageArray(CenterCenterImages, "CenterCenter");
   preloadImageArray(CenterRightImages, "CenterRight");
